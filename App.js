@@ -1,0 +1,28 @@
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>karam gnam tun?</Text>
+       <Text style={styles.textsStyle}>karam gnam tun?</Text>
+      <StatusBar style="auto" />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  textsStyle:{
+    backgroundColor: "green",
+    color: "blue",
+    padding: "3px",
+  }
+});
+
+
